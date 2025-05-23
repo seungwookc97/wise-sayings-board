@@ -1,8 +1,5 @@
 package com.back;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-
 import java.io.File;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -11,7 +8,6 @@ import java.util.Scanner;
 public class Main {
     static final String DB_PATH = "db/wiseSaying/";
     static final String LAST_PATH = DB_PATH + "lastId.txt";
-    static final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
     public static void main(String[] args) {
         System.out.println("== 명언 앱==");
